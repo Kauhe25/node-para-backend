@@ -1,9 +1,9 @@
 {
   "name": "aula-nodejs",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "projeto de exemplo",
   "main": "index.js",
-  "type":"module",
+  "type": "module",
   "scripts": {
     "start": "node index.js --nome=kauhee --curso=powerbi",
     "executa": "node index.js --nome=kauhee --curso=nodejs",
