@@ -22,7 +22,8 @@ app.get('/clientes', (req: Request, res: Response): void => {
 
 // tratando via parametros
 app.get('/clientes/:id', (req: Request, res: Response): void => {
-    console.log(req.params);
+    const {id} = req.params as {id:string}
+    res.send(`Get Clientes com parametro - id: ${id}`);
 })
 
 
